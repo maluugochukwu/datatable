@@ -1,0 +1,27 @@
+{
+    "name": "ugo/datatable",
+    "description": "Server side datatable calls",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ugochukwu",
+            "email": "maluugochukwu@gmail.com"
+        }
+    ],
+    "require": {
+        "ugo/simlpeorm": "^1.0"
+    },
+    "autoload":{
+        "classmap": [
+            "src/"
+        ],
+        "psr-4":{
+            "ugo\\Datatable\\":"src/"
+            
+        },
+        "psr-0": {
+            "DbObject":"src/"
+        }
+    }
+}

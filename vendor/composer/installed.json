@@ -1,0 +1,45 @@
+{
+    "packages": [
+        {
+            "name": "ugo/simlpeorm",
+            "version": "1.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maluugochukwu/simpleorm.git",
+                "reference": "6494ea570747140e75e4054b1a5c3898def68131"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maluugochukwu/simpleorm/zipball/6494ea570747140e75e4054b1a5c3898def68131",
+                "reference": "6494ea570747140e75e4054b1a5c3898def68131",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "time": "2021-04-15T17:43:06+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "DbObject": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ugochukwu",
+                    "email": "maluugochukwu@gmail.com"
+                }
+            ],
+            "description": "Making database call a breeze",
+            "install-path": "../../../Datatable/vendor/ugo/simlpeorm"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9adeb218d6d05bfb56e29a820c63da6a",
+    "packages": [
+        {
+            "name": "ugo/simlpeorm",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/maluugochukwu/simpleorm.git",
+                "reference": "6494ea570747140e75e4054b1a5c3898def68131"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maluugochukwu/simpleorm/zipball/6494ea570747140e75e4054b1a5c3898def68131",
+                "reference": "6494ea570747140e75e4054b1a5c3898def68131",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DbObject": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ugochukwu",
+                    "email": "maluugochukwu@gmail.com"
+                }
+            ],
+            "description": "Making database call a breeze",
+            "time": "2021-04-15T17:43:06+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

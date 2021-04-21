@@ -1,0 +1,21 @@
+{
+    "name": "ugo/simple-orm",
+    "description": "Making database call a breeze",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ugochukwu",
+            "email": "maluugochukwu@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "DbObject":"src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=7.2.0"
+    }
+}
