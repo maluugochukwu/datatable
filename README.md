@@ -1,4 +1,4 @@
-# Server Side Datatable [PHP]
+# Server Side Datatable [JQUERY,PHP]
 Renders Jquery datatable in an efficient way by using server side calls for all paging, searching, ordering actions that DataTables performs on the large data set.
 
 # Installation
